@@ -61,4 +61,24 @@ ul{
     text-align: center;
 }
 
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        display: block; /* Torna o menu vertical em vez de horizontal */
+    }
+
+    .pagina-sobre {
+        background-size: cover;
+        background-position: center;
+        height: auto; /* Ajusta a altura para ser dinâmica */
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
 
