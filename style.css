@@ -9,6 +9,8 @@ body{
     background-image: url(/assets/Corvette.jpg); /*caminho da imagem*/
     background-size: cover; /*centraliza a imagem */
     background-repeat: no-repeat; /*evita que a imagem repita */
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 
@@ -49,14 +51,14 @@ ul{
     letter-spacing: 2px;
 }
 
-.sobre{
-    background-image: url(/assets/DogdeChallenger.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.sobre p{
-    color: white;
+.pagina-sobre {
+    background-image: url(/assets/MustangGt.jpg); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    height: 100vh; /* Faz o fundo ocupar 100% da altura da página */
+    color: #fff; /* Define uma cor de texto que contraste com o fundo */
+    text-align: center;
 }
 
 
