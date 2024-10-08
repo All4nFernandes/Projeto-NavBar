@@ -15,7 +15,6 @@ body{
 
 
 
-
 nav{
     background-color: rgb(15, 1, 1);
     display: flex;
@@ -32,7 +31,6 @@ nav{
 
 h1{
     color: white;
-    text-align: center;
 }
 
 a{
@@ -70,13 +68,14 @@ ul{
     }
 
     nav {
-        display: block; /* Torna o menu vertical em vez de horizontal */
+        display: flex;
     }
 
     .pagina-sobre {
         background-size: cover;
         background-position: center;
         height: auto; /* Ajusta a altura para ser dinâmica */
+        display: flex;
     }
 
     h1 {
@@ -84,3 +83,6 @@ ul{
     }
 }
 
+audio {
+    display: none;
+}
