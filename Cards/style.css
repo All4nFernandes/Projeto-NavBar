@@ -1,0 +1,65 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --cor-fundo: black;
+    --cor-texto: white;
+    --cor-fundo-card: gray;
+    font-size: 14px;
+}
+
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto)
+
+}
+
+main{
+    padding: 20px;
+}
+
+h2, h3, strong{
+    font-weight: bold;
+}
+
+h2{
+    /* Rem: unidade de medida relativa ao font-size do elemento raiz (html) */
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+h3{
+    /* em: Unidade de medida relativa ao font-size do elemento imediatamente pai */
+    font-size: 1.5em;
+}
+
+.produto-lista{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.produto-lista .produto img{
+    width: 180px;
+    border-radius: 14px;
+}
+
+.produto-lista .produto{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 18px;
+    width: 200px;
+    background-color: var(--cor-fundo-card);
+
+}
+
+.produto-lista, .produto span{
+    text-align: justify;
+}
