@@ -69,18 +69,22 @@ ul{
     }
 
     nav {
-        display: flex;
+        display: grid;
+    }
+    .Logo{
+        text-align: center;
     }
 
     .pagina-sobre {
         background-size: cover;
         background-position: center;
         height: auto; /* Ajusta a altura para ser dinâmica */
-        display: flex;
+        display: grid;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 20px;
+        text-align: center;
     }
 }
 
