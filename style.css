@@ -6,7 +6,7 @@
 body{
     font-family: "Playfair Display", sans-serif;
     background-color: rgb(248, 248, 248);
-    background-image: url(/assets/Corvette.jpg); /*caminho da imagem*/
+    background-image: url(/assets/Plano_de_fundo.webp); /*caminho da imagem*/
     background-size: cover; /*centraliza a imagem */
     background-repeat: no-repeat; /*evita que a imagem repita */
     background-attachment: fixed;
@@ -53,13 +53,16 @@ ul{
 }
 
 .pagina-sobre {
-    background-image: url(/assets/MustangGt.jpg); /* Caminho da imagem de fundo */
     background-size: cover; /* Faz com que a imagem cubra todo o fundo */
     background-position: center; /* Centraliza a imagem no fundo */
     background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
     height: 100vh; /* Faz o fundo ocupar 100% da altura da página */
     color: #fff; /* Define uma cor de texto que contraste com o fundo */
     text-align: center;
+}
+
+.format{
+    text-align: justify;
 }
 
 /* Estilo para dispositivos móveis */
